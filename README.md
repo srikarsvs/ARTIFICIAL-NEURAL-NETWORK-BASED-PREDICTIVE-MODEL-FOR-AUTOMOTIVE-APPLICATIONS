@@ -28,6 +28,7 @@ Mechanical Engineering
 - [Results and Discussion](#results-and-discussion)
 - [Conclusion](#conclusion)
 - [Future Work](#future-work)
+- [How to Use](#how-to-use)
 
 ---
 
@@ -130,3 +131,90 @@ Future research will focus on enhancing the ANN model by optimizing weight param
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+# Certificate of Publication
+
+---
+
+**Manuscript ID:** DE160349SS  
+**Date:** 15/7/2021  
+
+## Publication Details:
+
+This is to certify that the research paper entitled **"Design an Artificial Neural Network Based Predictive Model for Automotive Applications"**, authored by **Savadi Venkata Sai Srikar, Ajay Kumar Revuri, Kota Venkateswarlu, M. Sreenivasan**, has been reviewed by the Editorial Board and published in **Design Engineering**, Issue 7, July 2021, pp. 13335 - 13344.
+
+- **ISSN Online:** 0011-9342
+- **Journal Impact Factor (2016):** 9.2286 Calculated by GISI ([www.jifactor.com](https://www.jifactor.com))
+- **InfoBase Index IBI Factor (2017–18):** 3.46  
+- **Thomson Reuters' Researcher ID:** B-7384-2017
+
+**Retrieved from:** [http://www.thedesignengineering.com/index.php/DE/article/view/4582](http://www.thedesignengineering.com/index.php/DE/article/view/4582)
+
+**Editor-in-Chief**  
+Design Engineering  
+
+**Editorial Office:**  
+Design Engineering  
+4143 Danforth Avenue, Toronto, ON M4K 1A6  
+**Email:** editor@thedesignengineering.com
+
+---
+
+## Paper Abstract
+
+The research introduces an **Artificial Neural Network (ANN)** based predictive model, specifically for **automotive applications**. Focusing on **passive fluid shock absorbers**, the study explores how ANN can predict parameters like **peak displacement, acceleration, power, and stiffness** for varied frequencies and fluid orifice conditions. Among several training techniques explored, the **Scaled Conjugate Gradient (SCG)** method demonstrated the lowest error, establishing it as the most accurate approach for predictive modeling in this domain.
+
+---
+
+### Key Findings:
+
+- **ANN Prediction Accuracy**: The SCG technique achieved a minimal error rate compared to other training techniques such as **Resilient Back-propagation (RP)** and **BFGS Quasi-Newton (BFG)**, making it 57.53% more accurate than RP and 84.56% more accurate than BFG.
+
+- **Automotive Application**: This model can enhance vehicle suspension design, improving both **driver comfort** and **vehicle handling**.
+
+- **Practical Implementation**: MATLAB was used to develop and test the predictive model, with 80% of the data for training and 20% for testing. Experimental results validated the model's effectiveness.
+
+---
+
+### Performance and Results:
+
+- **Peak Acceleration**: Achieved error of **2.54**.
+- **Peak Displacement**: Achieved error of **7.07**.
+- **Power**: Achieved error of **6.88**.
+- **Stiffness**: Achieved error of **2.25**.
+
+The overall performance of the SCG method outperformed the other techniques, demonstrating its robustness in predicting critical suspension parameters.
+
+---
+
+### How to Clone and Use the Model:
+
+1. **Clone the Repository**:
+   - Use the following command to clone the repository containing the model:
+     ```bash
+     git clone https://github.com/username/repository.git
+     ```
+
+2. **Set Up Your Environment**:
+   - Ensure you have MATLAB installed with the necessary toolboxes (e.g., Neural Network Toolbox).
+
+3. **Load the Data**:
+   - Prepare your dataset and load it into MATLAB.
+
+4. **Run the Model**:
+   - Navigate to the cloned repository in MATLAB and run the main script to initiate the ANN training process. 
+   - Adjust the training parameters if needed.
+
+5. **Evaluate Results**:
+   - After training, use the testing dataset to evaluate the model's performance. Review the error metrics to assess accuracy.
+
+6. **Visualize Results**:
+   - Utilize provided MATLAB scripts for visualizing the predicted outputs and performance metrics.
+
+---
+
+### Conclusion:
+
+The developed ANN-based predictive model offers a computationally
