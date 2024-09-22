@@ -116,11 +116,11 @@ Future research will focus on enhancing the ANN model by optimizing weight param
 ## How to Use
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/ANN-Automotive-Predictive-Model.git
+    git clone https://github.com/srikarsvs/ARTIFICIAL-NEURAL-NETWORK-BASED-PREDICTIVE-MODEL-FOR-AUTOMOTIVE-APPLICATIONS.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd ANN-Automotive-Predictive-Model
+    cd ARTIFICIAL-NEURAL-NETWORK-BASED-PREDICTIVE-MODEL-FOR-AUTOMOTIVE-APPLICATIONS
     ```
 3. Run the MATLAB script to simulate the ANN predictive model:
     ```matlab
